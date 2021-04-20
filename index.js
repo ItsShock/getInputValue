@@ -1,5 +1,7 @@
-function getInputValue() {
-  // Zaimplementuj zadanie zgodnie z wytycznymi
-};
+function getInputValue(value) {
+    return value.value.length ? value.value : null;
+
+}
+
 
 module.exports = getInputValue;
